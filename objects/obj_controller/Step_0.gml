@@ -71,7 +71,7 @@ if gamepad_button_check_pressed(0, gp_face2)
     keyboard_key_press(vk_space)
 else
     keyboard_key_release(vk_space)
-if gamepad_button_check_pressed(0, gp_face3)
+if gamepad_button_check_pressed(0, gp_face4)
     keyboard_key_press(vk_control)
 else
     keyboard_key_release(vk_control)

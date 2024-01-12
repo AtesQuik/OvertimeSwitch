@@ -23,7 +23,7 @@ if (progress == 4)
 {
     remaining = (6 - string_length(global.playername))
     if ((!keyboard_check(vk_space)) && string_length(global.playername) < 6)
-        global.playername = string_copy(keyboard_string, 1, 6)
+        global.playername = written
     if (keyboard_check_pressed(vk_anykey) && string_length(global.playername) < 6)
         audio_play_sound(snd_text_battle, 1, false)
     if (keyboard_check_pressed(vk_space) && global.playername != 0)
@@ -72,6 +72,7 @@ if (progress == 6)
         {
             audio_play_sound(snd_battlemenu_select, 1, false)
             progress = 4
+			alarm[0] = 1
             yesorno = 0
             global.playername = ""
             keyboard_string = ""

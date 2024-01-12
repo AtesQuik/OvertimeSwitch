@@ -22,4 +22,5 @@ whiteness = 0
 blackness = 0
 shake = 0
 go = 0
+written = ""
 
