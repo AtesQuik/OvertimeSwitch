@@ -1,0 +1,2 @@
+enemyhurt = 0
+

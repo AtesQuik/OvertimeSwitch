@@ -1,0 +1,1 @@
+global.battleapproachstring = "* it hurts"

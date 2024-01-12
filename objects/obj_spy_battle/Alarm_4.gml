@@ -1,0 +1,1 @@
+dyingprogress = 5

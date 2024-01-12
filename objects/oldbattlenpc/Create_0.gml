@@ -1,0 +1,25 @@
+global.enemyamount += 1
+global.enemiesencountered += 1
+enemyhurt = 0
+enemydead = 0
+waitingfortext = 0
+actchoice = 0
+enemyname = "Ro-buddy"
+enemyquip = "Came to take American jobs."
+enemyinfo = "Makes attacks stronger."
+enemyhealth = 20
+maxhealth = 20
+sparemeter = 10
+enemyattack = 5
+enemydefense = 2
+xpreceive = round(random_range(5, 9))
+cashreceive = round(random_range(5, 9))
+act1 = "Compliment"
+act2 = "Insult"
+act3 = "Steal"
+act4 = "???"
+healthysprite = 412
+hurtsprite = 413
+downsprite = 413
+attacking = 0
+

@@ -1,0 +1,23 @@
+global.enemyamount += 1
+enemyhurt = 0
+waitingfortext = 0
+enemyname = "Dummy"
+enemyquip = "SANI made it himself!"
+enemyinfo = "Never attacks nor defends."
+enemyhealth = 20
+maxhealth = 20
+sparemeter = 10
+enemyattack = 0
+enemydefense = 0
+act1 = "Talk"
+act2 = "Compliment"
+act3 = "Insult"
+act4 = "???"
+healthysprite = 414
+hurtsprite = 415
+downsprite = 415
+attacking = 0
+global.hospitalprogress = 5
+xpreceive = 0
+cashreceive = 0
+

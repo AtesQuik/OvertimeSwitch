@@ -1,0 +1,10 @@
+if (x == 90 && y == 115)
+    move_towards_point((x - 20), (y - 20), 2)
+if (x == 90 && y == 200)
+    move_towards_point((x - 20), (y + 20), 2)
+if (x == 235 && y == 115)
+    move_towards_point((x + 20), (y - 20), 2)
+if (x == 235 && y == 200)
+    move_towards_point((x + 20), (y + 20), 2)
+action_set_alarm(15, 2)
+

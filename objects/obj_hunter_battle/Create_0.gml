@@ -1,0 +1,34 @@
+scr_enemy_variables()
+enemyname = "Eht Nellaf"
+enemyquip = "Ti saw na tnedicca."
+enemyinfo = "On eno's tluaf."
+enemyhealth = 666
+maxhealth = 666
+sparemeter = 15
+enemyattack = 4
+enemydefense = 2
+giantdamagebar = 0
+xpreceive = round(random_range(3, 5))
+cashreceive = round(random_range(3, 4))
+act1 = "Confront"
+confronted = 0
+act2 = "Attack"
+embraced = 0
+act3 = "Fall"
+fallen = 0
+act4 = "???"
+healthysprite = 613
+hurtsprite = 613
+downsprite = 613
+global.previousroom = 205
+global.playerxpos = 160
+global.playerypos = 100
+global.playerdirection = 0
+image_speed = 0.05
+downorup = 0
+army = 0
+counter = 0
+rightorleft = choose(0, 1)
+arm1x = 0
+arm2x = 0
+

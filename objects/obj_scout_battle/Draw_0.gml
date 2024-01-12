@@ -1,0 +1,66 @@
+if ((!(place_meeting(x, y, obj_enemy_spared))) && enemyhealth > 0 && enemyhurt == 0 && enemydead == 0)
+{
+    if (whichleg == 2)
+        draw_sprite_ext(spr_scout_legs, leg2, (x - 1), (y - extraroom), -1, 1, leg2angle, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_legs, leg1, x, ((y + (headshake / 60)) - extraroom), 1, (1 + (headshake / 60)), leg1angle, image_blend, image_alpha)
+    if (whichleg < 2)
+        draw_sprite_ext(spr_scout_legs, leg2, (x - 1), ((y + (headshake / 60)) - extraroom), -1, (1 + (headshake / 60)), leg2angle, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_arms, arm1, (x + shakex), ((y - extraroom) + shakey), 1, 1, arm1angle, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_arms, arm2, (x + shakex), ((y - extraroom) + shakey), -1, 1, arm2angle, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_torso, 0, (x + shakex), ((y - extraroom) + shakey), 1, 1, image_angle, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_heads, heads, x, ((y - extraroom) + headshake), 1, 1, image_angle, image_blend, image_alpha)
+}
+if (enemyhealth <= 0 && enemyhurt == 0 && enemydead == 0)
+{
+    if (whichleg == 2)
+        draw_sprite_ext(spr_scout_legs, 0, (x - 1), y, -1, 1, 0, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_legs, 0, x, y, 1, 1, 0, image_blend, image_alpha)
+    if (whichleg < 2)
+        draw_sprite_ext(spr_scout_legs, 0, (x - 1), y, -1, 1, 0, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_arms, 0, x, y, 1, 1, 0, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_arms, 0, x, y, -1, 1, 0, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_torso, 0, x, y, 1, 1, 0, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_heads, heads, x, y, 1, 1, 0, image_blend, image_alpha)
+}
+if place_meeting(x, y, obj_enemy_spared)
+{
+    if (whichleg == 2)
+        draw_sprite_ext(spr_scout_legs, leg2, (x - 1), y, -1, 1, 0, image_blend, 0.5)
+    draw_sprite_ext(spr_scout_legs, leg1, x, y, 1, 1, 0, image_blend, 0.5)
+    if (whichleg < 2)
+        draw_sprite_ext(spr_scout_legs, leg2, (x - 1), y, -1, 1, 0, image_blend, 0.5)
+    draw_sprite_ext(spr_scout_arms, arm1, x, y, 1, 1, 0, image_blend, 0.5)
+    draw_sprite_ext(spr_scout_arms, arm2, x, y, -1, 1, 0, image_blend, 0.5)
+    draw_sprite_ext(spr_scout_torso, 0, x, y, 1, 1, 0, image_blend, 0.5)
+    draw_sprite_ext(spr_scout_heads, heads, x, y, 1, 1, 0, image_blend, 0.5)
+}
+if (enemyhurt == 1)
+{
+    if (whichleg == 2)
+        draw_sprite_ext(spr_scout_legs, leg2, (x - 1), (y - extraroom), -1, 1, leg2angle, image_blend, 0.5)
+    draw_sprite_ext(spr_scout_legs, leg1, x, ((y + (headshake / 60)) - extraroom), 1, (1 + (headshake / 60)), leg1angle, image_blend, 0.5)
+    if (whichleg < 2)
+        draw_sprite_ext(spr_scout_legs, leg2, (x - 1), ((y + (headshake / 60)) - extraroom), -1, (1 + (headshake / 60)), leg2angle, image_blend, 0.5)
+    draw_sprite_ext(spr_scout_arms, arm1, (x + shakex), ((y - extraroom) + shakey), 1, 1, arm1angle, image_blend, 0.5)
+    draw_sprite_ext(spr_scout_arms, arm2, (x + shakex), ((y - extraroom) + shakey), -1, 1, arm2angle, image_blend, 0.5)
+    draw_sprite_ext(spr_scout_torso, 0, (x + shakex), ((y - extraroom) + shakey), 1, 1, image_angle, image_blend, 0.5)
+    if (global.genocide == 0)
+        draw_sprite_ext(spr_scout_heads, hurtheads, x, ((y - extraroom) + headshake), 1, 1, image_angle, image_blend, 0.5)
+    else
+        draw_sprite_ext(spr_scout_heads, 13, x, ((y - extraroom) + headshake), 1, 1, image_angle, image_blend, 0.5)
+}
+if (enemydead == 1)
+{
+    if (whichleg == 2)
+        draw_sprite_ext(spr_scout_legs, 0, (x - 1), y, -1, 1, 0, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_legs, 0, x, y, 1, 1, 0, image_blend, image_alpha)
+    if (whichleg < 2)
+        draw_sprite_ext(spr_scout_legs, 0, (x - 1), y, -1, 1, 0, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_arms, 0, x, y, 1, 1, 0, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_arms, 0, x, y, -1, 1, 0, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_torso, 0, x, y, 1, 1, 0, image_blend, image_alpha)
+    draw_sprite_ext(spr_scout_heads, heads, x, y, 1, 1, 0, image_blend, image_alpha)
+}
+draw_sprite_ext(spr_blackscreen, 0, 0, 0, 1, 1, 0, image_blend, blackalpha)
+scr_enemy_draw_healthbar()
+

@@ -1,0 +1,29 @@
+scr_enemy_variables()
+enemyname = "P.Physician"
+enemyquip = "Right man, wrong place."
+enemyinfo = "Misses his kids back home."
+enemyhealth = 20
+maxhealth = 20
+sparemeter = 10
+enemyattack = 3
+enemydefense = 2
+giantdamagebar = 0
+cashreceive = round(random_range(25, 28))
+xpreceive = round(random_range(5, 9))
+act1 = "Flex"
+act2 = "Play"
+act3 = "Taunt"
+act4 = "???"
+healthysprite = 498
+hurtsprite = 499
+downsprite = 499
+crowbar = 0
+goingdown = 0
+shaking = 0
+waiting = -10
+smoke = 0
+shakex = 0
+shakey = 0
+wasattop = 0
+attacktype = choose(1, 2)
+

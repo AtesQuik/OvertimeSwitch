@@ -1,0 +1,2 @@
+enemydead = 3
+

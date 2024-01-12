@@ -1,0 +1,24 @@
+image_speed = 0.05
+global.enemyamount += 1
+enemyhurt = 0
+waitingfortext = 0
+actchoice = 0
+enemyname = "Irate Sven"
+enemyquip = "A knight in dirty armor."
+enemyinfo = "Dirty, yet gorgeous."
+enemyhealth = 30
+maxhealth = 20
+sparemeter = 10
+enemyattack = 5
+enemydefense = 2
+xpreceive = round(random_range(3, 5))
+cashreceive = round(random_range(2, 4))
+act1 = "Calm"
+act2 = "Clean"
+act3 = "Soil"
+act4 = "???"
+healthysprite = 416
+hurtsprite = 417
+downsprite = 417
+attacking = 0
+

@@ -1,0 +1,1 @@
+stringamount = 0

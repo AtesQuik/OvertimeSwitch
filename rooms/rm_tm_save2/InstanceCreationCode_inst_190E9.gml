@@ -1,0 +1,9 @@
+image_index = 1
+stringamount = 6
+string1 = "* The shouting guy once#  mistook me for the#  easter bunny."
+string2 = "* Even though the easter#  bunny is my cousin and#  lives in the south."
+string3 = "* He also asked me where I#  was hiding my easter eggs."
+string4 = "* The only easter eggs I lay#  are not meant to be found,#  and they don't taste good."
+string5 = "* He even asked me if I knew#  Peter Rabbit."
+string6 = "* I know only one Peter who#  lives across the ocean,#  and he is NOT a rabbit."
+string7 = "* At least not as far#  as I know..."

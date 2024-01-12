@@ -1,0 +1,2 @@
+global.textboxon = 0
+

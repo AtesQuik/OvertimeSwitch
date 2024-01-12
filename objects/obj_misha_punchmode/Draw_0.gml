@@ -1,0 +1,13 @@
+if (progress < 8 || progress > 15)
+    draw_sprite_ext(spr_misha_battle_punch, 0, x, y, 1, 1, 0, image_blend, image_alpha)
+if (progress == 8)
+    draw_sprite_ext(spr_misha_battle_punch, 1, x, y, 1, 1, 0, image_blend, image_alpha)
+if (progress == 10)
+    draw_sprite_ext(spr_misha_battle_punch, 3, x, y, 1, 1, 0, image_blend, image_alpha)
+if (progress == 12)
+    draw_sprite_ext(spr_misha_battle_punch, 1, x, y, 1, 1, 0, image_blend, image_alpha)
+if (progress == 14)
+    draw_sprite_ext(spr_misha_battle_punch, 3, x, y, 1, 1, 0, image_blend, image_alpha)
+if (progress == 0)
+    draw_sprite_ext(spr_whitescreen, 0, 0, 0, 1, 1, 0, image_blend, whitescreen)
+

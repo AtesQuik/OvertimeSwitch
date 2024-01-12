@@ -1,0 +1,2 @@
+helpprogress = 1
+

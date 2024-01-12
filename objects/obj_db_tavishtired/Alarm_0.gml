@@ -1,0 +1,8 @@
+progress = 3
+with (instance_create(x, y, obj_text_box))
+{
+    MAXSTR = 0
+    textvoice = 99
+    STR[0] = "* (Drunken slurs)"
+}
+

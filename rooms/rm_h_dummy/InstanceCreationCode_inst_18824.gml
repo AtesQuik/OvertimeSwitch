@@ -1,0 +1,11 @@
+stringamount = 9
+string1 = "* Coo, coo.#  (If you are#  unsure how to defeat a foe,"
+string2 = "* you can inspect them to#  gather intelligence#  on them.)"
+string3 = "* (You will also find the#  value of " + "\"" + "DMG" + "\"" + ", which tells#  you how much of your " + "\"" + "HP" + "\""
+string4 = "* you will lose if their#  attacks hit you.)"
+string5 = "* (You can reduce their#  " + "\"" + "HP" + "\"" + " with your own#  attacks, however.)"
+string6 = "* (The stronger your attack,#  the more HP you will#  reduce.)"
+string7 = "* (If their HP is 0, they#  will die.)"
+string8 = "* (But if it is low enough,#  they might consider getting#  hired by you.)"
+string9 = "* (Using violence for your#  own gain...is that the#  right thing to do?)"
+string10 = "* Coo, coo..."

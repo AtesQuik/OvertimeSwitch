@@ -1,0 +1,11 @@
+draw_text(20, 20, string_hash_to_newline(shaking))
+draw_sprite_ext(spr_wizard_battle, 0, x, ((y - 2) + (shaking * 1.5)), 1, 1, 0, image_blend, image_alpha)
+draw_sprite_ext(spr_wizard_battle, 1, x, (y + (shaking * 1.25)), 1, 1, 0, image_blend, image_alpha)
+draw_sprite_ext(spr_wizard_battle, 2, (x - (shaking / 4)), y, 1, 1, (shaking * 3), image_blend, image_alpha)
+draw_sprite_ext(spr_wizard_battle, 3, (x + (shaking / 4)), y, 1, 1, ((-shaking) * 3), image_blend, image_alpha)
+draw_sprite_ext(spr_wizard_battle, 4, x, (y + (shaking / 4)), 1, 1, 0, image_blend, image_alpha)
+draw_sprite_ext(spr_wizard_battle, 5, ((x + 12) - (shaking / 4)), ((y + 12) - (shaking / 4)), 1, 1, (-32 - (shaking * 3)), image_blend, image_alpha)
+draw_sprite_ext(spr_wizard_battle, 6, ((x - 12) + (shaking / 4)), ((y + 12) - (shaking / 4)), 1, 1, (32 + (shaking * 3)), image_blend, image_alpha)
+draw_sprite_ext(spr_wizard_battle, 7, (x - (shaking / 4)), (y - (shaking / 4)), 1, 1, ((-shaking) * 3), image_blend, image_alpha)
+draw_sprite_ext(spr_wizard_battle, 8, (x + (shaking / 4)), (y - (shaking / 4)), 1, 1, (shaking * 3), image_blend, image_alpha)
+

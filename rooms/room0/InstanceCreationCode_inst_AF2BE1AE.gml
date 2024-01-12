@@ -1,0 +1,9 @@
+roomname = 126
+xpos = 390
+ypos = 150
+pdirection = 2
+global.turnedorange = 1
+global.genocide = 0
+global.neutralending = 0
+global.musictitle = 113
+global.australium = 0

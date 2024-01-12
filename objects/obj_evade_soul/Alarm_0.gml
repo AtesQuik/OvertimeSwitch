@@ -1,0 +1,2 @@
+global.soulhit = 0
+

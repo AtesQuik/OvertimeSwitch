@@ -1,0 +1,2 @@
+nomoreheals = 1
+

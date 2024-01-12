@@ -1,0 +1,11 @@
+draw_sprite(sprite_index, 0, x, y)
+draw_set_color(c_red)
+draw_text(0, 0, string_hash_to_newline(("1 global.tavishkilled " + string(global.tavishkilled))))
+draw_text(0, 10, string_hash_to_newline(("2 global.janekilled " + string(global.janekilled))))
+draw_text(0, 20, string_hash_to_newline(("3 global.scoutkilled " + string(global.scoutkilled))))
+draw_text(0, 30, string_hash_to_newline(("4 global.tavishhired " + string(global.tavishhired))))
+draw_text(0, 40, string_hash_to_newline(("5 global.sanikilled " + string(global.sanikilled))))
+draw_text(0, 50, string_hash_to_newline(("6 global.sniperkilled " + string(global.sniperkilled))))
+draw_text(0, 60, string_hash_to_newline(("7 global.spykilled " + string(global.spykilled))))
+draw_set_color(c_white)
+

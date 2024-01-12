@@ -1,0 +1,26 @@
+global.enemyamount += 1
+enemyhurt = 0
+enemydead = 0
+waitingfortext = 0
+actchoice = 0
+attacking = 0
+global.hospitalprogress = 5
+enemyname = "Dummy"
+enemyquip = "Sani made it himself!"
+enemyinfo = "Doesn't attack or defend."
+enemyhealth = 5
+maxhealth = 5
+sparemeter = 10
+enemyattack = 0
+enemydefense = 0
+giantdamagebar = 0
+xpreceive = 0
+cashreceive = 0
+act1 = "Talk"
+act2 = "Compliment"
+act3 = "Insult"
+act4 = "???"
+healthysprite = 414
+hurtsprite = 415
+downsprite = 415
+

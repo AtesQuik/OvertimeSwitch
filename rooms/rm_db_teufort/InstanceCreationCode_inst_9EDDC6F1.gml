@@ -1,0 +1,9 @@
+image_index = 0
+sprite_index = spr_teufortian_extra
+mask_index = spr_teufortian_extra
+stringamount = 4
+string1 = "* That cake might look tasty."
+string2 = "* But don't eat it,#  it's actually a bomb."
+string3 = "* In fact...#* Everything here is a bomb.#* Even I am!"
+string4 = "* Just kidding."
+string5 = "* Or am I?"

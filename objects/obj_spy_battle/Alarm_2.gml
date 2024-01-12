@@ -1,0 +1,2 @@
+dyingprogress = 3
+

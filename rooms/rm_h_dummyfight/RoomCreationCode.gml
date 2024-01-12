@@ -1,0 +1,1 @@
+global.battleapproachstring = "* A dummy."

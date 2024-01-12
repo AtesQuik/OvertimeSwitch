@@ -1,0 +1,21 @@
+draw_sprite(spr_rickandmorty, 0, x, y)
+if (speakingto == 1 && instance_exists(obj_text_box))
+{
+    if (obj_text_box.N == 0)
+        draw_sprite(spr_merc_talk, image_index, (x - 12), (y + 10))
+    if (obj_text_box.N == 1)
+        draw_sprite(spr_merc_talk, image_index, (x - 12), (y + 10))
+    if (obj_text_box.N == 2)
+        draw_sprite(spr_merc_talk, image_index, (x - 12), (y + 10))
+    if (obj_text_box.N == 3)
+        draw_sprite(spr_merc_talk, image_index, (x + 2), (y - 6))
+    if (obj_text_box.N == 4)
+        draw_sprite(spr_merc_talk, image_index, (x + 2), (y - 6))
+    if (obj_text_box.N == 5)
+        draw_sprite(spr_merc_talk, image_index, (x + 2), (y - 6))
+    if (obj_text_box.N == 6)
+        draw_sprite(spr_merc_talk, image_index, (x + 2), (y - 6))
+    if (obj_text_box.N == 7)
+        draw_sprite(spr_merc_talk, image_index, (x - 12), (y + 10))
+}
+

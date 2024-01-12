@@ -1,0 +1,9 @@
+image_index = 0
+stringamount = 6
+string1 = "* Hoi there, small fry!#* If you want to go inside#  the arcade, you can't."
+string2 = "* It's actually full of#  bloody arcade machines!"
+string3 = "* There are in fact so many#  arcade machines inside,#  I can't open the door!"
+string4 = "* To make things even worse,#  none of them are#  actually good games!"
+string5 = "* Most of them aren't even#  playable and I think one#  of them is just dung."
+string6 = "* Well, what did I expect#  hiring a donkey to#  order arcade machines."
+string7 = "* Seems like I'll need#  to close everything#  down soon."

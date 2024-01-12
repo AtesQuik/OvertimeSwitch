@@ -1,0 +1,29 @@
+scr_enemy_variables()
+enemyname = "Tavish"
+enemyquip = "A bounty hunter and knight?"
+enemyinfo = "He might like alcohol."
+enemyhealth = global.demohp
+maxhealth = 60
+sparemeter = 25
+enemyattack = 4
+enemydefense = 2
+giantdamagebar = 1
+cashreceive = 0
+xpreceive = round(random_range(5, 9))
+act1 = "Drink"
+act2 = "Drink"
+act3 = "Drink"
+act4 = "???"
+image_speed = 0
+geno = 0
+isdying = 0
+dyingprogress = 0
+shaking = 0
+upordown = 0
+head = 0
+haddrink = 0
+slashing = 0
+attacktype = 0
+randomchance = choose(0, 1, 2, 3)
+randomchance2 = choose(0, 1, 2)
+

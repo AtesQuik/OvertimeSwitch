@@ -1,0 +1,15 @@
+with (obj_dell_battle)
+    instance_destroy()
+with (obj_dell_item)
+    instance_destroy()
+with (obj_dell_battle_sentry)
+    instance_destroy()
+with (obj_dell_bullet)
+    instance_destroy()
+with (obj_soul_battle_select)
+    instance_destroy()
+with (obj_speech_bubble_noevade)
+    instance_destroy()
+instance_create(110, 70, obj_dell_death)
+alarm[1] = 30
+

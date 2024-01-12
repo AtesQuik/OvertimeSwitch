@@ -1,0 +1,21 @@
+with (obj_pl_f_balloonicorn)
+{
+    path_end()
+    if (balloonicolor == 16776960)
+        move_towards_point(430, -20, 3)
+    if (balloonicolor == 65535)
+        move_towards_point(660, -10, 3)
+    if (balloonicolor == 8388736)
+        move_towards_point(660, 510, 3)
+    if (balloonicolor == 4235519)
+        move_towards_point(430, 520, 3)
+    if (balloonicolor == 16711680)
+        move_towards_point(210, 520, 3)
+    if (ballooney == 1)
+        move_towards_point(-20, 510, 3)
+    if (balloonicolor == 65280)
+        move_towards_point(-20, -10, 3)
+    if (balloonicolor == 16711935)
+        move_towards_point(210, -20, 3)
+}
+

@@ -1,0 +1,2 @@
+turnprogress = 5
+

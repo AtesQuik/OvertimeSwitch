@@ -1,0 +1,10 @@
+if (nailchance == 0)
+    instance_create(-70, irandom_range(-70, 550), obj_pl_nail)
+if (nailchance == 1)
+    instance_create(710, irandom_range(-70, 550), obj_pl_nail)
+if (nailchance == 2)
+    instance_create(irandom_range(-70, 710), -70, obj_pl_nail)
+if (nailchance == 3)
+    instance_create(irandom_range(-70, 710), 550, obj_pl_nail)
+nailchance = choose(0, 1, 2, 3)
+

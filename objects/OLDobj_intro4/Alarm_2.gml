@@ -1,0 +1,2 @@
+textprogress += 1
+

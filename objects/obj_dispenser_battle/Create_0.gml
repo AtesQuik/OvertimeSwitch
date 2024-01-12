@@ -1,0 +1,36 @@
+scr_enemy_variables()
+enemyname = "Dispenser"
+enemyquip = "Apparently murderous now."
+enemyinfo = "Is there love left inside?"
+enemyhealth = 28
+maxhealth = 28
+sparemeter = 40
+enemyattack = 4
+enemydefense = 2
+giantdamagebar = 1
+xpreceive = 0
+cashreceive = 0
+act1 = "Cook"
+act2 = "Movie"
+act3 = "Song"
+act4 = "???"
+healthysprite = 502
+hurtsprite = 502
+downsprite = 502
+attackchance = choose(1, 2)
+image_speed = 0.2
+geno = 0
+sapped = 0
+isdying = 0
+progress = 0
+blackalpha = 0
+abouttocrash = 0
+turned = 0
+button = 0
+upordown = 0
+shaking = 0
+firealpha = 1
+leftorright = 0
+image_speed = 0.2
+noshake = 0
+

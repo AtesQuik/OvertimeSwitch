@@ -1,0 +1,8 @@
+if (itemtype == 0)
+    itemtype = choose(1, 2, 3)
+if (itemtype == 1)
+    itemtype = choose(0, 2, 3)
+if (itemtype == 2)
+    itemtype = choose(1, 0, 3)
+if (itemtype == 3)
+    itemtype = choose(1, 2, 0)

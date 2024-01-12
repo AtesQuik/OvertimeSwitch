@@ -1,0 +1,2 @@
+xprogress = 2
+

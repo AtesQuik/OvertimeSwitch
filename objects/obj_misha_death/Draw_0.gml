@@ -1,0 +1,11 @@
+draw_sprite_ext(spr_misha_battle_down, 0, (x + shakex), y, 1, 1, 0, image_blend, image_alpha)
+draw_sprite_ext(spr_misha_battle_head, heads, (x + shakex), (y + 25), 1, 1, 0, image_blend, image_alpha)
+if (shooting == 1)
+    draw_sprite(spr_gun, 0, (x + 10), (y + 64))
+if (shooting == 2)
+    draw_sprite(spr_gun, 1, (x + 12), (y + 66))
+if (shooting == 3)
+    draw_sprite_ext(spr_gun, 0, (x + 10), (y + 64), 1, 1, 0, image_blend, gunalpha)
+if (progress < 9)
+    script_execute(scr_draw_battle_stats)
+

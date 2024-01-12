@@ -1,0 +1,2 @@
+global.battleroom = 87
+
