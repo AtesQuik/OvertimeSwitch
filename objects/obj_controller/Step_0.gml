@@ -46,4 +46,49 @@ if (global.sanihired == 1 || global.sniperhired == 1 || global.janehired == 1 ||
 }
 scr_hat_effects()
 scr_inventory_check()
-
+if os_type = os_switch {
+if (gamepad_axis_value(0, gp_axislh) > 0.6 || gamepad_button_check(0, gp_padr))
+    right = 1
+else
+    right = 0
+if (gamepad_axis_value(0, gp_axislh) < -0.6 || gamepad_button_check(0, gp_padl))
+    left = 1
+else
+    left = 0
+if (gamepad_axis_value(0, gp_axislv) > 0.6 || gamepad_button_check(0, gp_padd))
+    down = 1
+else
+    down = 0
+if (gamepad_axis_value(0, gp_axislv) < -0.6 || gamepad_button_check(0, gp_padu))
+    up = 1
+else
+    up = 0
+if gamepad_button_check_pressed(0, gp_face1)
+    keyboard_key_press(vk_shift)
+else
+    keyboard_key_release(vk_shift)
+if gamepad_button_check_pressed(0, gp_face2)
+    keyboard_key_press(vk_space)
+else
+    keyboard_key_release(vk_space)
+if gamepad_button_check_pressed(0, gp_face3)
+    keyboard_key_press(vk_control)
+else
+    keyboard_key_release(vk_control)
+if (right == 1)
+    keyboard_key_press(vk_right)
+else
+    keyboard_key_release(vk_right)
+if (left == 1)
+    keyboard_key_press(vk_left)
+else
+    keyboard_key_release(vk_left)
+if (down == 1)
+    keyboard_key_press(vk_down)
+else
+    keyboard_key_release(vk_down)
+if (up == 1)
+    keyboard_key_press(vk_up)
+else
+    keyboard_key_release(vk_up)
+}
