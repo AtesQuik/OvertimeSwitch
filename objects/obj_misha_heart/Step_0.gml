@@ -53,5 +53,5 @@ if (progress == 6)
     }
 }
 if (progress == 7)
-    game_end()
+    ossafe_game_end()
 

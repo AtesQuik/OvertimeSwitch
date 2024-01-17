@@ -2,6 +2,7 @@ function scr_save_universal() {
 	if file_exists("Universal.sav")
 	    file_delete("Universal.sav")
 	ini_open("Universal.sav")
+	switch_saveload()
 	ini_write_string("Player", "playername", global.playername)
 	ini_write_real("Player", "inputname", global.inputname)
 	ini_write_string("Save", "savename", global.savename)
@@ -10,7 +11,7 @@ function scr_save_universal() {
 	ini_write_real("Universal", "completedpacifist", global.completedpacifist)
 	ini_write_real("Universal", "completedgenocide", global.completedgenocide)
 	ini_write_real("Universal", "pacifistenabled", global.pacifistenabled)
-	ini_close()
+	switch_saveloadend()
 
 
 

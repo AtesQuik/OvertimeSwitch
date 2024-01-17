@@ -2,6 +2,7 @@ function scr_progress_save() {
 	if file_exists("Progress.sav")
 	    file_delete("Progress.sav")
 	ini_open("Progress.sav")
+	switch_saveload()
 	ini_write_real("Saved", "playerlevel", global.playerlevel)
 	ini_write_real("Saved", "playminute", global.playminute)
 	ini_write_real("Saved", "playsecond", global.playsecond)
@@ -14,7 +15,7 @@ function scr_progress_save() {
 	ini_write_real("Behaviour", "enemiesencountered", global.enemiesencountered)
 	ini_write_real("Behaviour", "enemieskilled", global.enemieskilled)
 	ini_write_real("Behaviour", "enemiesspared", global.enemiesspared)
-	ini_close()
+	switch_saveloadend()
 
 
 

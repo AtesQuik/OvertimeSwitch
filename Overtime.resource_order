@@ -1783,6 +1783,7 @@
     {"name":"spr_crosshair","order":1752,"path":"sprites/spr_crosshair/spr_crosshair.yy",},
     {"name":"spr_target","order":1753,"path":"sprites/spr_target/spr_target.yy",},
     {"name":"spr_target_choice","order":1754,"path":"sprites/spr_target_choice/spr_target_choice.yy",},
+    {"name":"swtich_saving","order":1,"path":"scripts/swtich_saving/swtich_saving.yy",},
     {"name":"spr_target_mask","order":1755,"path":"sprites/spr_target_mask/spr_target_mask.yy",},
     {"name":"spr_miss","order":1756,"path":"sprites/spr_miss/spr_miss.yy",},
     {"name":"spr_crit","order":1757,"path":"sprites/spr_crit/spr_crit.yy",},

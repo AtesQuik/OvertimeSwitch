@@ -2,6 +2,7 @@ function scr_save_hired_and_killed() {
 	if file_exists("Mercenaries.sav")
 	    file_delete("Mercenaries.sav")
 	ini_open("Mercenaries.sav")
+	switch_saveload()
 	ini_write_real("Killed", "sanikilled", global.sanikilled)
 	ini_write_real("Killed", "sniperkilled", global.sniperkilled)
 	ini_write_real("Killed", "janekilled", global.janekilled)
@@ -26,7 +27,7 @@ function scr_save_hired_and_killed() {
 	ini_write_real("Hired", "merc2hired", global.merc2hired)
 	ini_write_real("Hired", "merc3hired", global.merc3hired)
 	ini_write_real("Hired", "dellhired", global.dellhired)
-	ini_close()
+	switch_saveloadend()
 
 
 

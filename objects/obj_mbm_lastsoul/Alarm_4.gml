@@ -1,1 +1,1 @@
-game_end()
+ossafe_game_end()

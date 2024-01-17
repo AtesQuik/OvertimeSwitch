@@ -27,6 +27,6 @@ if (progress == 1)
 if (progress == 2 && (!instance_exists(obj_text_box)))
 {
     progress = 3
-    game_end()
+    ossafe_game_end()
 }
 

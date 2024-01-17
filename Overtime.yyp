@@ -1823,6 +1823,7 @@
     {"id":{"name":"spr_crosshair","path":"sprites/spr_crosshair/spr_crosshair.yy",},},
     {"id":{"name":"spr_target","path":"sprites/spr_target/spr_target.yy",},},
     {"id":{"name":"spr_target_choice","path":"sprites/spr_target_choice/spr_target_choice.yy",},},
+    {"id":{"name":"swtich_saving","path":"scripts/swtich_saving/swtich_saving.yy",},},
     {"id":{"name":"spr_target_mask","path":"sprites/spr_target_mask/spr_target_mask.yy",},},
     {"id":{"name":"spr_miss","path":"sprites/spr_miss/spr_miss.yy",},},
     {"id":{"name":"spr_crit","path":"sprites/spr_crit/spr_crit.yy",},},

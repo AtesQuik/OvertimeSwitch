@@ -2,6 +2,7 @@ function scr_load_hired_and_killed() {
 	if file_exists("Mercenaries.sav")
 	{
 	    ini_open("Mercenaries.sav")
+		switch_saveload()
 	    global.sanikilled = ini_read_real("Killed", "sanikilled", 0)
 	    global.sniperkilled = ini_read_real("Killed", "sniperkilled", 0)
 	    global.janekilled = ini_read_real("Killed", "janekilled", 0)
@@ -26,7 +27,7 @@ function scr_load_hired_and_killed() {
 	    global.merc2hired = ini_read_real("Hired", "merc2hired", 0)
 	    global.merc3hired = ini_read_real("Hired", "merc3hired", 0)
 	    global.dellhired = ini_read_real("Hired", "dellhired", 0)
-	    ini_close()
+	    switch_saveloadend()
 	}
 	else
 	{

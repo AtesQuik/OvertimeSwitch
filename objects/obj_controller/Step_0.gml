@@ -15,7 +15,7 @@ if keyboard_check(global.escapekey)
             holdesc += 0.5
     }
     else
-        game_end()
+        ossafe_game_end()
 }
 if keyboard_check_released(global.escapekey)
     holdesc = 0
