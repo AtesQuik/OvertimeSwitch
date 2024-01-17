@@ -1,6 +1,5 @@
 # OvertimeSwitch
-Unofficial port of Overtime to the NX platform.
-
+Unofficial port of Overtime to the NX platform. (%70 completed)
 # Todo list:
 
 - ~~Decompile the game.~~
