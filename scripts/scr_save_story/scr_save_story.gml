@@ -1,8 +1,8 @@
 function scr_save_story() {
 	if file_exists("Story.sav")
 	    file_delete("Story.sav")
-	ini_open("Story.sav")
 	switch_saveload()
+	ini_open("Story.sav")
 	ini_write_real("Story", "turnedorange", global.turnedorange)
 	ini_write_real("Story", "scoutturned", global.scoutturned)
 	ini_write_real("Story", "pyroprogress", global.pyroprogress)

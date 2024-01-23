@@ -1,8 +1,8 @@
 function scr_progress_load() {
 	if file_exists("Progress.sav")
 	{
-	    ini_open("Progress.sav")
 		switch_saveload()
+	    ini_open("Progress.sav")
 	    global.playerlevel = ini_read_real("Saved", "playerlevel", 1)
 	    global.playminute = ini_read_real("Saved", "playminute", 0)
 	    global.playsecond = ini_read_real("Saved", "playsecond", 0)

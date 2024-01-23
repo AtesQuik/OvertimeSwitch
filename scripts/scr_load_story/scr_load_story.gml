@@ -1,8 +1,8 @@
 function scr_load_story() {
 	if file_exists("Story.sav")
 	{
-	    ini_open("Story.sav")
 		switch_saveload()
+	    ini_open("Story.sav")
 	    global.turnedorange = ini_read_real("Story", "turnedorange", 0)
 	    global.scoutturned = ini_read_real("Story", "scoutturned", 0)
 	    global.pyroprogress = ini_read_real("Story", "pyroprogress", 0)

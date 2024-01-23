@@ -1,8 +1,8 @@
 function scr_load_universal() {
 	if file_exists("Universal.sav")
 	{
+		switch_saveload()
 	    ini_open("Universal.sav")
-	    switch_saveload()
 		global.playername = ini_read_string("Player", "playername", "")
 	    global.inputname = ini_read_real("Player", "inputname", 0)
 	    global.savename = ini_read_string("Save", "savename", "undertale_save")

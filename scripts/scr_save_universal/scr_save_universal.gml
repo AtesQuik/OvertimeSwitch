@@ -1,8 +1,8 @@
 function scr_save_universal() {
 	if file_exists("Universal.sav")
 	    file_delete("Universal.sav")
-	ini_open("Universal.sav")
 	switch_saveload()
+	ini_open("Universal.sav")
 	ini_write_string("Player", "playername", global.playername)
 	ini_write_real("Player", "inputname", global.inputname)
 	ini_write_string("Save", "savename", global.savename)
